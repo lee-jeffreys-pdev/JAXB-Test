@@ -44,6 +44,7 @@ public class MarshallingTest extends TestBase implements TestItem
     {
         Message message = new Message();
 
+        // Add a Segment to the Message
         Segment segment = new Segment();
         segment.setName("Test Segment");
         segment.setDescription("This is a test segment");
