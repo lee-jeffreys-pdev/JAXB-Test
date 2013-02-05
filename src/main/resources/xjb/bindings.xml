@@ -1,5 +1,4 @@
 <jaxb:bindings xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
-               xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                jaxb:version="2.1">
     <jaxb:bindings >
         <jaxb:globalBindings typesafeEnumMaxMembers="2000"/>
