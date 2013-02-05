@@ -122,6 +122,12 @@
                 <configuration>
                     <source>1.7</source>
                     <target>1.7</target>
+                    <excludes>
+                        <exclude>com/liveperson/jaxbtest/model/generated/**</exclude>
+                    </excludes>
+                    <testExcludes>
+                        <testExclude>com/liveperson/jaxbtest/model/generated/**</testExclude>
+                    </testExcludes>
                 </configuration>
             </plugin>
             <plugin>
@@ -137,8 +143,8 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <packageName>com.liveperson.jaxbtest.model</packageName>
-                    <outputDirectory>src/main/java</outputDirectory>
+                    <packageName>com.liveperson.jaxbtest.model.generated</packageName>
+                    <outputDirectory>src/main/generated/src</outputDirectory>
                     <schemaDirectory>src/main/resources/xsd</schemaDirectory>
                     <bindingDirectory>src/main/resources/xjb</bindingDirectory>
                     <bindingFiles>bindings.xml</bindingFiles>
