@@ -1,0 +1,1328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="13728dff-97ac-4649-942e-408d9bf497c3" name="Default" comment="" />
+    <ignored path="JaxbTest.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/pom.xml" changelist="13728dff-97ac-4649-942e-408d9bf497c3" time="1360075968954" ignored="false" />
+    <file path="/Dummy.txt" changelist="13728dff-97ac-4649-942e-408d9bf497c3" time="1360080385031" ignored="false" />
+    <file path="/SiteDataApi.xsd" changelist="13728dff-97ac-4649-942e-408d9bf497c3" time="1360068898183" ignored="false" />
+    <file path="/MarshallingTest.java" changelist="13728dff-97ac-4649-942e-408d9bf497c3" time="1360080374478" ignored="false" />
+    <file path="/TestBase.java" changelist="13728dff-97ac-4649-942e-408d9bf497c3" time="1360072558907" ignored="false" />
+    <file path="/UnMarshallingTest.java" changelist="13728dff-97ac-4649-942e-408d9bf497c3" time="1360074843383" ignored="false" />
+    <file path="/bindings.xml" changelist="13728dff-97ac-4649-942e-408d9bf497c3" time="1360075783259" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="13728dff-97ac-4649-942e-408d9bf497c3" time="1360080465872" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="JaxbTest" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="bindings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/xjb/bindings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="32" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestBase.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/liveperson/jaxbtest/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="5" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UnMarshallingTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/liveperson/jaxbtest/jaxb/UnMarshallingTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="76" selection-start="1202" selection-end="1202" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MarshallingTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/liveperson/jaxbtest/jaxb/MarshallingTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="122" selection-start="839" selection-end="839" vertical-scroll-proportion="0.51261467">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/xsd/SiteDataApi.xsd" />
+        <option value="$PROJECT_DIR$/src/test/java/com/liveperson/jaxbtest/jaxb/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/TestData/jaxb/UnMarshallingData.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/liveperson/jaxbtest/jaxb/UnMarshallingTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/xjb/bindings.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/liveperson/jaxbtest/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/liveperson/jaxbtest/jaxb/MarshallingTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>AOP</id>
+          </State>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+          <State>
+            <id>Assignment issues</id>
+          </State>
+          <State>
+            <id>Assignment issuesGroovy</id>
+          </State>
+          <State>
+            <id>Assignment issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Class structure</id>
+          </State>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+          <State>
+            <id>GeneralCoffeeScript</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Google App Engine</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Guice Inspections</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>J2ME Plugin</id>
+          </State>
+          <State>
+            <id>J2ME issues</id>
+          </State>
+          <State>
+            <id>JUnit issues</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Logging issues</id>
+          </State>
+          <State>
+            <id>OSGi</id>
+          </State>
+          <State>
+            <id>Packaging issues</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugs</id>
+          </State>
+          <State>
+            <id>Spring Model</id>
+          </State>
+          <State>
+            <id>Spring OSGiSpring Model</id>
+          </State>
+          <State>
+            <id>TestNG</id>
+          </State>
+          <State>
+            <id>Threading issues</id>
+          </State>
+          <State>
+            <id>Threading issuesGroovy</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JaxbTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JaxbTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JAXB-Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JaxbTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JAXB-Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JaxbTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JAXB-Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JaxbTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JAXB-Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JaxbTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JAXB-Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JaxbTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JAXB-Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jaxbtest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JaxbTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JAXB-Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jaxbtest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jaxb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JaxbTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JAXB-Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xsd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JaxbTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JAXB-Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xjb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JaxbTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JAXB-Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JaxbTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JaxbTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="options.lastSelected" value="settings.github" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="project.structure.side.proportion" value="0.20000002" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Development\Liveperson\JaxbTest\src\main\resources\xsd" />
+      <recent name="C:\Development\Liveperson\JaxbTest\src\main" />
+      <recent name="C:\Development\Liveperson\JaxbTest\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.com.liveperson.jaxbtest.jaxb in JaxbTest">
+    <configuration default="false" name="MarshallingTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.liveperson.jaxbtest.jaxb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JaxbTest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.liveperson.jaxbtest.jaxb" />
+      <option name="MAIN_CLASS_NAME" value="com.liveperson.jaxbtest.jaxb.MarshallingTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="UnMarshallingTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.liveperson.jaxbtest.jaxb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JaxbTest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.liveperson.jaxbtest.jaxb" />
+      <option name="MAIN_CLASS_NAME" value="com.liveperson.jaxbtest.jaxb.UnMarshallingTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="com.liveperson.jaxbtest.jaxb in JaxbTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.liveperson.jaxbtest.jaxb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JaxbTest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.liveperson.jaxbtest.jaxb" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MarshallingTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.UnMarshallingTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.com.liveperson.jaxbtest.jaxb in JaxbTest" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.com.liveperson.jaxbtest.jaxb in JaxbTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MarshallingTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.UnMarshallingTest" />
+      </list>
+    </recent_temporary>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13728dff-97ac-4649-942e-408d9bf497c3" name="Default" comment="" />
+      <created>1360066909181</created>
+      <updated>1360066909181</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1360074972432</created>
+      <updated>1360074972432</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial Commit">
+      <created>1360078187049</created>
+      <updated>1360078187049</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial Commit">
+      <created>1360080262010</created>
+      <updated>1360080262010</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added Comment">
+      <created>1360080389028</created>
+      <updated>1360080389028</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17342582" sideWeight="0.6703786" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.6703786" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Comment" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="Initial Commit" />
+    <MESSAGE value="Added Comment" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/liveperson/jaxbtest/TestItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="25" selection-start="113" selection-end="113" vertical-scroll-proportion="0.20659722">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/TestData/jaxb/UnMarshallingData.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="51" selection-start="273" selection-end="273" vertical-scroll-proportion="0.17708333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/jre/lib/rt.jar!/javax/xml/bind/Unmarshaller.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="6" selection-start="387" selection-end="387" vertical-scroll-proportion="0.33333334" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/xsd/SiteDataApi.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2611" column="18" selection-start="127580" selection-end="127580" vertical-scroll-proportion="0.1705151">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="137" column="55" selection-start="4533" selection-end="4533" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liveperson/jaxbtest/model/InvitationType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="12" selection-start="984" selection-end="984" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liveperson/jaxbtest/model/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liveperson/jaxbtest/model/UDEScope.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="12" selection-start="1173" selection-end="1173" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liveperson/jaxbtest/model/UDEType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="12" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liveperson/jaxbtest/model/SurveyType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="12" selection-start="1245" selection-end="1245" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liveperson/jaxbtest/model/Country.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="254" column="12" selection-start="10606" selection-end="10606" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.liveperson.jaxbtest.model">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.liveperson.jaxbtest.model</OriginalElement>
+          <nodes>
+            <node x="" y="">com.liveperson.jaxbtest.model.ChatDynamicButton</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.ComplexCondition</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.ReportCounterRef</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Conditions</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Resource</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Permission</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.ChatLibraryResources</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.UpdateDynamicButtonBase</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.UpdateCommonProperties</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Parameters</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.CommonProperties</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.ButtonPosition</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.TransferData</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.SingleStepImageLocation</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.UpdateCannedResponse</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.UpdateSegment</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.UpdateWindowProperties</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.AndCondition</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.MessageRow</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.VoiceSingleStepProperties</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.AbsolutePositioning</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.SurveyQuestion</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.PermissionGroup</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.SkillIds</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.PredictiveDialer</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.UpdateVoiceDualStepDynamicButton</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.PredictiveDialers</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.InvitationBase</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.PredictiveDialerType</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.UpdateInitiative</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.RuleBase</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.GroupMembersList</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.ObjectRevisions</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Members</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.CannedResponseTree</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.VirtualSkill</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Parameter</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.CannedResponse</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.UpdatePredictiveDialer</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.ConditionReference</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.WindowPropertiesBase</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.SurveyRef</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.AvailableTimeRange</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.ChatTemplate</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.DynamicButton</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.UpdateContext</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Condition</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Surveys</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.CustomImageLocation</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.WindowProperties</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.SurveyType</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.InternalSkills</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.IEOnTop</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Window</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.AdminProfile</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.PredictiveDialerRef</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.MessagesTable</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Revision</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Field</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.UDEType</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.DynamicButtonRef</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.MultichannelPosition</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.VisitorProfiles</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.UpdateDynamicButton</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Staller</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.UpdatePermissionGroup</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Rule</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.UpdateCampaign</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.PredictiveDialerBase</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.PDRoutingNone</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.PermissionGroups</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.PredictiveDialerDialerMode</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.ComplexConditions</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.InvitationRef</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.RulePosition</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.UpdateVoiceSingleStepDynamicButton</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Default</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.UpdateOperator</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.ChatProperties</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Digits</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Contexts</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.AcdAttributesSets</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.SkillTimeZone</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.UpdateInvitation</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.SurveyExtraParams</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.CustomImageLocationBase</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.InitiativeRef</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.EndTransaction</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.VirtualSkills</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.CannedResponsesSetIds</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.PermissionProfile</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.OperatorGroup</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.PermissionProfiles</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.UpdateMultiChannelDynamicButton</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.UpdateChatDynamicButton</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.ObjectFactory</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.RuleRef</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Action</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Operator</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Operators</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.MessageType</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Segment</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.PhoneNumberInput</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.SeparatorType</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.ObjRef</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.MenuType</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.CannedResponses</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.UpdateChatProperties</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.SkillType</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.OperatorGroups</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Position</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.SurveyQuestions</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Days</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.UDEScope</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.OrCondition</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.AdminProfiles</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.CampaignRef</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.UpdateVoiceSingleStepProperties</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Status</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.ChatWindows</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.InvitationType</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.TimeZone</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.UpdateRulePosition</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.VirtualSkillBase</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.FollowupCampaignRef</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.UpdateFollowupCampaign</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.VisitorProfileBase</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Skin</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.InternalSkill</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.UpdateCustomImageLocation</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.FollowupCampaign</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.DynamicButtonPosition</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.VoiceDualStepDynamicButton</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.CannedResponseType</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.DynamicButtonType</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.PredictiveDialerRouting</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Error</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.UpdateVoiceDualStepProperties</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Segments</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.ImageLocation</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.SurveyExtraParam</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.UpdateAdminProfile</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.OnTopOfObjects</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Campaign</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.PDRoutingRoom</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.UpdateInternalSkill</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Permissions</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.ErrorMsg</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.MultiChannelDynamicButton</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Actions</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.UpdateVisitorProfile</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.UpdateSurvey</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.ButtonPositionWithinContainer</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Initiative</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.SystemMessage</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.SkillRefList</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.RelativePositioning</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.InternalSkillBase</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.AnswersList</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Countries</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.OperatorRef</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.DynamicButtons</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.ReportCounters</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.UpdateRule</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.SurveyBase</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Invitations</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.ChatLibraryResource</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.VoiceDualStepProperties</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Message</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Campaigns</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.AvailabilityPolicy</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.DynamicButtonBase</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.IdRef</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.VoiceSingleStepDynamicButton</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Initiatives</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.ChatTemplates</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Invitation</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Context</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.PhoneNumber</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.UpdateVirtualSkill</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Submit</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.SystemMessages</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.MarketerProperties</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Rules</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.ChatTemplateName</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.SingleStepCustomImageLocation</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.StartTransaction</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.FollowupCampaigns</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.UpdateOperatorGroup</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.WindowsProperties</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.UpdateChatLibraryResource</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Country</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.HotKeyType</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.RulesSet</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.ContextRef</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Survey</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.Resources</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.SegmentRef</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.VisitorProfile</node>
+            <node x="" y="">com.liveperson.jaxbtest.model.PDRoutingSkill</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8098194130925508" x="648.0" y="1667.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/xjb/bindings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="32" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/liveperson/jaxbtest/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="5" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/liveperson/jaxbtest/jaxb/UnMarshallingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="76" selection-start="1202" selection-end="1202" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/liveperson/jaxbtest/jaxb/MarshallingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="122" selection-start="839" selection-end="839" vertical-scroll-proportion="0.51261467">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>JaxbTest:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>JaxbTest</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20000002" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20000002" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+
