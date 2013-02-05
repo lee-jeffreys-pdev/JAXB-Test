@@ -2,8 +2,8 @@ package com.liveperson.jaxbtest.jaxb;
 
 import static org.junit.Assert.*;
 
-import com.liveperson.jaxbtest.TestBase;
-import com.liveperson.jaxbtest.TestItem;
+import com.liveperson.jaxbtest.base.impl.TestBase;
+import com.liveperson.jaxbtest.base.TestItem;
 import com.liveperson.jaxbtest.model.Message;
 import org.junit.Test;
 

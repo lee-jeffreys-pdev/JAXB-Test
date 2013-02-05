@@ -1,5 +1,6 @@
-package com.liveperson.jaxbtest;
+package com.liveperson.jaxbtest.base.impl;
 
+import com.liveperson.jaxbtest.base.TestItem;
 import org.apache.log4j.Logger;
 
 /**

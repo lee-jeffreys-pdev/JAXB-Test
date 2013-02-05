@@ -1,4 +1,4 @@
-package com.liveperson.jaxbtest;
+package com.liveperson.jaxbtest.base;
 
 /**
  * User: Lee
