@@ -1,42 +1,38 @@
 package com.liveperson.jaxbtest.jaxb;
 
-import com.liveperson.jaxbtest.base.impl.TestBase;
-import com.liveperson.jaxbtest.base.TestItem;
 import com.liveperson.jaxbtest.model.Message;
 import com.liveperson.jaxbtest.model.Segment;
+import com.liveperson.jaxbtest.xml.IXmlHelper;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
-import javax.xml.bind.Marshaller;
 
 /**
  * User: Lee
  * Date: 05/02/13
  * Time: 13:28
  */
-public class MarshallingTest extends TestBase implements TestItem
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration(locations = {"classpath:spring/helpers.xml"})
+public class MarshallingTest
 {
-    public MarshallingTest()
-    {
-        super(MarshallingTest.class);
-    }
+    @Autowired
+    IXmlHelper xmlhelper;
 
     @Test
     public void simpleMarshallingTest()
     {
         try
         {
-            JAXBContext context = JAXBContext.newInstance(Message.class);
+            System.out.println(xmlhelper.marshal(createTestMessage()));
 
-            Marshaller marshaller = context.createMarshaller();
-
-            marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
-
-            marshaller.marshal(createTestMessage(), System.out);
         }catch (JAXBException e)
         {
-            logger.debug("An exception occured marshaling the data");
+//            logger.debug("An exception occured marshaling the data");
         }
     }
 

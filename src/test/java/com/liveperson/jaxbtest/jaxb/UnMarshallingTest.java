@@ -1,9 +1,5 @@
 package com.liveperson.jaxbtest.jaxb;
 
-import static org.junit.Assert.*;
-
-import com.liveperson.jaxbtest.base.impl.TestBase;
-import com.liveperson.jaxbtest.base.TestItem;
 import com.liveperson.jaxbtest.model.Message;
 import org.junit.Test;
 
@@ -12,16 +8,19 @@ import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 import java.io.StringReader;
 
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
+
 /**
  * User: Lee
  * Date: 05/02/13
  * Time: 14:09
  */
-public class UnMarshallingTest extends TestBase implements TestItem
+public class UnMarshallingTest
 {
     public UnMarshallingTest()
     {
-        super(UnMarshallingTest.class);
+
     }
 
     @Test
@@ -49,7 +48,7 @@ public class UnMarshallingTest extends TestBase implements TestItem
             assertTrue(message.getSegment().getName().equals(segmentName));
 
         } catch (JAXBException e) {
-            logger.debug("An exception occured unmarshaling the data");
+//            logger.debug("An exception occured unmarshaling the data");
         }
     }
 }
