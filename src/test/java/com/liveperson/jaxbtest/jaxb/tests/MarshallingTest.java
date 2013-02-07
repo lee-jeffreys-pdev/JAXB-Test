@@ -1,5 +1,6 @@
-package com.liveperson.jaxbtest.jaxb;
+package com.liveperson.jaxbtest.jaxb.tests;
 
+import com.liveperson.jaxbtest.jaxb.TestBase;
 import com.liveperson.jaxbtest.model.Message;
 import com.liveperson.jaxbtest.model.Segment;
 import com.liveperson.jaxbtest.xml.IXmlHelper;
@@ -18,10 +19,15 @@ import javax.xml.bind.JAXBException;
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = {"classpath:spring/helpers.xml"})
-public class MarshallingTest
+public class MarshallingTest extends TestBase
 {
     @Autowired
     IXmlHelper xmlhelper;
+
+    public MarshallingTest()
+    {
+        super(MarshallingTest.class);
+    }
 
     @Test
     public void simpleMarshallingTest()
@@ -32,7 +38,7 @@ public class MarshallingTest
 
         }catch (JAXBException e)
         {
-//            logger.debug("An exception occured marshaling the data");
+            logger.debug("An exception occured marshaling the data");
         }
     }
 
