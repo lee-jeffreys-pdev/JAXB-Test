@@ -2,11 +2,11 @@ package com.liveperson.jaxbtest.jaxb.tests;
 
 import com.liveperson.jaxbtest.jaxb.TestBase;
 import com.liveperson.jaxbtest.model.Message;
+import com.liveperson.jaxbtest.xml.IXmlHelper;
 import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 
-import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
-import javax.xml.bind.Unmarshaller;
 import java.io.StringReader;
 
 import static org.junit.Assert.assertNotNull;
@@ -19,13 +19,16 @@ import static org.junit.Assert.assertTrue;
  */
 public class UnMarshallingTest extends TestBase
 {
+    @Autowired
+    IXmlHelper xmlhelper;
+
     public UnMarshallingTest()
     {
         super(UnMarshallingTest.class);
     }
 
     @Test
-    public void simpleUnMarshallingTest()
+    public void simpleUnMarshallingTest() throws JAXBException
     {
         String segmentName = "Test Segment";
         String testXml =    "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n" +
@@ -36,19 +39,10 @@ public class UnMarshallingTest extends TestBase
                             "    </Segment>\n" +
                             "</message>";
 
-        try {
-            JAXBContext context = JAXBContext.newInstance(Message.class);
-
-            Unmarshaller unmarshaller = context.createUnmarshaller();
-
-            Message message = (Message)unmarshaller.unmarshal(new StringReader(testXml));
+            Message message = xmlhelper.unmarshal(new StringReader(testXml));
 
             assertNotNull(message);
             assertTrue(message.getSegment() != null);
             assertTrue(message.getSegment().getName().equals(segmentName));
-
-        } catch (JAXBException e) {
-            logger.debug("An exception occured unmarshaling the data");
-        }
     }
 }

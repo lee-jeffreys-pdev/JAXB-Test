@@ -5,20 +5,18 @@ import com.liveperson.jaxbtest.model.Message;
 import com.liveperson.jaxbtest.model.Segment;
 import com.liveperson.jaxbtest.xml.IXmlHelper;
 import org.junit.Test;
-import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import javax.xml.bind.JAXBException;
 
+import static org.junit.Assert.assertNotNull;
+
 /**
+ *
  * User: Lee
  * Date: 05/02/13
  * Time: 13:28
  */
-@RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = {"classpath:spring/helpers.xml"})
 public class MarshallingTest extends TestBase
 {
     @Autowired
@@ -29,19 +27,22 @@ public class MarshallingTest extends TestBase
         super(MarshallingTest.class);
     }
 
+    /**
+    * A Test to validate that a Message class object can be marshalled into a String.
+    */
     @Test
-    public void simpleMarshallingTest()
+    public void simpleMarshallingTest() throws JAXBException
     {
-        try
-        {
-            System.out.println(xmlhelper.marshal(createTestMessage()));
+        String messagexml = xmlhelper.marshal(createTestMessage());
 
-        }catch (JAXBException e)
-        {
-            logger.debug("An exception occured marshaling the data");
-        }
+        assertNotNull(messagexml);
     }
 
+    /**
+     * Returns a dummy Message class
+     *
+     * @return  Message
+     */
     private Message createTestMessage()
     {
         Message message = new Message();

@@ -9,6 +9,7 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
+import java.io.Reader;
 import java.io.StringReader;
 import java.io.StringWriter;
 
@@ -55,6 +56,17 @@ public class XmlHelper implements IXmlHelper
             StringReader reader = new StringReader(xml);
             Message message = (Message)unmarshaller.unmarshal(reader);
             return message;
+        } catch (JAXBException e) {
+            logger.debug("Failed to unmarshal xml");
+            throw e;
+        }
+    }
+
+    public Message unmarshal(Reader reader) throws JAXBException
+    {
+        try
+        {
+        return (Message)unmarshaller.unmarshal(reader);
         } catch (JAXBException e) {
             logger.debug("Failed to unmarshal xml");
             throw e;
